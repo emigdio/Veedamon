@@ -1,0 +1,121 @@
+/* 
+  Localizable.strings
+  VeedaMom
+
+  Created by EMIGDIO CAMACHO CALDERON on 5/3/16.
+  Copyright © 2016 EMIGDIO CAMACHO CALDERON. All rights reserved.
+*/
+
+"LOG_IN_BUTTON" = "Log in";
+
+"SIGN_UP_BUTTON" = "Sign up";
+
+"FORGET_PASSWORD" = "Forgot your password?";
+
+"USER_TEXTFIELD" = "User or email";
+
+"PASSWORD_TEXTFIELD" = "Password";
+
+"ALERT_SELECT_OPTION" = "You must select an option";
+
+"TITLE_QUESTION1" = "I have been able to laugh and see the funny side of things:";
+
+"OPTION1_QUESTION1" = "As much as I always could";
+
+"OPTION2_QUESTION1" = "Not quite so much now";
+
+"OPTION3_QUESTION1" = "Definitely not so much now";
+
+"OPTION4_QUESTION1" = "Not at all";
+
+"TITLE_QUESTION2" = "I have looked forward with enjoyment to things:";
+
+"OPTION1_QUESTION2" = "As much as I ever did";
+
+"OPTION2_QUESTION2" = "Rather less than I used to";
+
+"OPTION3_QUESTION2" = "Definitely less than I used to";
+
+"OPTION4_QUESTION2" = "Hardly at all";
+
+"TITLE_QUESTION3" = "I have blamed myself unnecessarily when things went wrong:";
+
+"OPTION1_QUESTION3" = "Yes, most of the time";
+
+"OPTION2_QUESTION3" = "Yes, some of the time";
+
+"OPTION3_QUESTION3" = "Not very often";
+
+"OPTION4_QUESTION3" = "No, never";
+
+"TITLE_QUESTION4" = "I have been anxious or worried for no good reason:";
+
+"OPTION1_QUESTION4" = "No, not at all";
+
+"OPTION2_QUESTION4" = "Hardly ever";
+
+"OPTION3_QUESTION4" = "Yes, sometimes";
+
+"OPTION4_QUESTION4" = "Yes, very often";
+
+"TITLE_QUESTION5" = "I have felt scared or panicky for no very good reason:";
+
+"OPTION1_QUESTION5" = "Yes, quite a lot";
+
+"OPTION2_QUESTION5" = "Yes, sometimes";
+
+"OPTION3_QUESTION5" = "No, not much";
+
+"OPTION4_QUESTION5" = "No, not at all";
+
+"TITLE_QUESTION6" = "Things have been getting on me:";
+
+"OPTION1_QUESTION6" = "Yes, most of the time I haven't been able to cope at all";
+
+"OPTION2_QUESTION6" = "Yes, sometimes I haven't been coping as well as usual";
+
+"OPTION3_QUESTION6" = "No, most of the time I have coped quite well";
+
+"OPTION4_QUESTION6" = "No, I have been coping as well as ever";
+
+"TITLE_QUESTION7" = "I have been so unhappy that I have had difficulty sleeping:";
+
+"OPTION1_QUESTION7" = "Yes, most of the time";
+
+"OPTION2_QUESTION7" = "Yes, sometimes";
+
+"OPTION3_QUESTION7" = "Not very often";
+
+"OPTION4_QUESTION7" = "No, not at all";
+
+"TITLE_QUESTION8" = "I have felt sad or miserable:";
+
+"OPTION1_QUESTION8" = "Yes, most of the time";
+
+"OPTION2_QUESTION8" = "Yes, sometimes";
+
+"OPTION3_QUESTION8" = "Not very often";
+
+"OPTION4_QUESTION8" = "No, not at all";
+
+"TITLE_QUESTION9" = "I have been so unhappy that I have been crying:";
+
+"OPTION1_QUESTION9" = "Yes, most of the time";
+
+"OPTION2_QUESTION9" = "Yes, quite often";
+
+"OPTION3_QUESTION9" = "Only occasionally";
+
+"OPTION4_QUESTION9" = "No, never";
+
+"TITLE_QUESTION10" = "The thought of harming myself has occurred to me:";
+
+"OPTION1_QUESTION10" = "I'm thinking about it right now";
+
+"OPTION2_QUESTION10" = "Yes, quite often";
+
+"OPTION3_QUESTION10" = "Sometimes";
+
+"OPTION4_QUESTION10" = "Hardly ever";
+
+"OPTION5_QUESTION10" = "Never";

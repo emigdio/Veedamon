@@ -1,0 +1,1155 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C7D9CB4751DAEF5CB4D170A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A421AEAFC259903B6CAC770 /* libPods.a */; };
+		7009484D1C8221960098127C /* exercices.png in Resources */ = {isa = PBXBuildFile; fileRef = 7009484C1C8221960098127C /* exercices.png */; settings = {ASSET_TAGS = (); }; };
+		700948521C82237D0098127C /* VeedaEvaluationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700948501C82237D0098127C /* VeedaEvaluationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		700948551C8237FD0098127C /* arrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 700948541C8237FD0098127C /* arrowLeft.png */; settings = {ASSET_TAGS = (); }; };
+		700948571C824D360098127C /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 700948561C824D360098127C /* check.png */; settings = {ASSET_TAGS = (); }; };
+		7009485D1C8268B90098127C /* separator2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7009485C1C8268B90098127C /* separator2.png */; settings = {ASSET_TAGS = (); }; };
+		700948AB1C8B4E500098127C /* VeedaResultTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700948A91C8B4E500098127C /* VeedaResultTestViewController.m */; settings = {ASSET_TAGS = (); }; };
+		700948AC1C8B4E500098127C /* VeedaResultTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 700948AA1C8B4E500098127C /* VeedaResultTestViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		700948B01C8B59E30098127C /* faceHappy.png in Resources */ = {isa = PBXBuildFile; fileRef = 700948AD1C8B59E30098127C /* faceHappy.png */; settings = {ASSET_TAGS = (); }; };
+		700948B11C8B59E30098127C /* faceSad.png in Resources */ = {isa = PBXBuildFile; fileRef = 700948AE1C8B59E30098127C /* faceSad.png */; settings = {ASSET_TAGS = (); }; };
+		700948B21C8B59E30098127C /* faceVerySad.png in Resources */ = {isa = PBXBuildFile; fileRef = 700948AF1C8B59E30098127C /* faceVerySad.png */; settings = {ASSET_TAGS = (); }; };
+		700948B51C8B9EA70098127C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 700948B71C8B9EA70098127C /* Localizable.strings */; };
+		700948C41C8D266E0098127C /* VeedaEvaluationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 700948C61C8D266E0098127C /* VeedaEvaluationViewController.xib */; };
+		700AB73E1C42BC4F0089B0D8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700AB73D1C42BC4F0089B0D8 /* Launch Screen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		700AB7411C42CFEA0089B0D8 /* padlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 700AB7401C42CFEA0089B0D8 /* padlock.png */; settings = {ASSET_TAGS = (); }; };
+		700AB7431C42D0000089B0D8 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 700AB7421C42D0000089B0D8 /* user.png */; settings = {ASSET_TAGS = (); }; };
+		700AB7471C42DBE00089B0D8 /* VeedaSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700AB7451C42DBE00089B0D8 /* VeedaSignUpViewController.m */; settings = {ASSET_TAGS = (); }; };
+		700AB7481C42DBE00089B0D8 /* VeedaSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 700AB7461C42DBE00089B0D8 /* VeedaSignUpViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		700AB74A1C42E71B0089B0D8 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 700AB7491C42E71B0089B0D8 /* line.png */; settings = {ASSET_TAGS = (); }; };
+		700AB74C1C42EDEF0089B0D8 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 700AB74B1C42EDEF0089B0D8 /* arrow.png */; settings = {ASSET_TAGS = (); }; };
+		700AB7501C42F74E0089B0D8 /* VeedaHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700AB74E1C42F74E0089B0D8 /* VeedaHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		700AB7511C42F74E0089B0D8 /* VeedaHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 700AB74F1C42F74E0089B0D8 /* VeedaHomeViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		700AB7541C42FF1B0089B0D8 /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 700AB7531C42FF1B0089B0D8 /* bell.png */; settings = {ASSET_TAGS = (); }; };
+		700AB7561C42FF280089B0D8 /* diary.png in Resources */ = {isa = PBXBuildFile; fileRef = 700AB7551C42FF280089B0D8 /* diary.png */; settings = {ASSET_TAGS = (); }; };
+		700AB75A1C42FF390089B0D8 /* hospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 700AB7591C42FF390089B0D8 /* hospital.png */; settings = {ASSET_TAGS = (); }; };
+		700AB75C1C42FF4B0089B0D8 /* rating.png in Resources */ = {isa = PBXBuildFile; fileRef = 700AB75B1C42FF4B0089B0D8 /* rating.png */; settings = {ASSET_TAGS = (); }; };
+		700AB75E1C42FF530089B0D8 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 700AB75D1C42FF530089B0D8 /* share.png */; settings = {ASSET_TAGS = (); }; };
+		700AB7601C432FE60089B0D8 /* videos.png in Resources */ = {isa = PBXBuildFile; fileRef = 700AB75F1C432FE60089B0D8 /* videos.png */; settings = {ASSET_TAGS = (); }; };
+		700AB76E1C452F720089B0D8 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700AB76C1C452F720089B0D8 /* MenuViewController.m */; settings = {ASSET_TAGS = (); }; };
+		700AB76F1C452F720089B0D8 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 700AB76D1C452F720089B0D8 /* MenuViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		700AB7741C452FC10089B0D8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700AB7731C452FC10089B0D8 /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
+		700AB7791C45336B0089B0D8 /* VeedaHeaderBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700AB7771C45336B0089B0D8 /* VeedaHeaderBarViewController.m */; settings = {ASSET_TAGS = (); }; };
+		700AB77A1C45336B0089B0D8 /* VeedaHeaderBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 700AB7781C45336B0089B0D8 /* VeedaHeaderBarViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		700AB77D1C4539410089B0D8 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 700AB77C1C4539410089B0D8 /* menu.png */; settings = {ASSET_TAGS = (); }; };
+		700AB77F1C45413B0089B0D8 /* logoBebe.png in Resources */ = {isa = PBXBuildFile; fileRef = 700AB77E1C45413B0089B0D8 /* logoBebe.png */; settings = {ASSET_TAGS = (); }; };
+		700AB7891C4544F30089B0D8 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 700AB7821C4544F30089B0D8 /* TPKeyboardAvoidingCollectionView.m */; settings = {ASSET_TAGS = (); }; };
+		700AB78A1C4544F30089B0D8 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 700AB7841C4544F30089B0D8 /* TPKeyboardAvoidingScrollView.m */; settings = {ASSET_TAGS = (); }; };
+		700AB78B1C4544F30089B0D8 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 700AB7861C4544F30089B0D8 /* TPKeyboardAvoidingTableView.m */; settings = {ASSET_TAGS = (); }; };
+		700AB78C1C4544F30089B0D8 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 700AB7881C4544F30089B0D8 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		700EDE871CA84EDE00C055E2 /* VeedaShareHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700EDE851CA84EDE00C055E2 /* VeedaShareHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		700EDE881CA84EDE00C055E2 /* VeedaShareHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 700EDE861CA84EDE00C055E2 /* VeedaShareHomeViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		700EDE8B1CA860E300C055E2 /* genderBaby.png in Resources */ = {isa = PBXBuildFile; fileRef = 700EDE8A1CA860E300C055E2 /* genderBaby.png */; settings = {ASSET_TAGS = (); }; };
+		700EDE8D1CA860EE00C055E2 /* monthsBaby.png in Resources */ = {isa = PBXBuildFile; fileRef = 700EDE8C1CA860EE00C055E2 /* monthsBaby.png */; settings = {ASSET_TAGS = (); }; };
+		700EDE8F1CA860F400C055E2 /* namesBaby.png in Resources */ = {isa = PBXBuildFile; fileRef = 700EDE8E1CA860F400C055E2 /* namesBaby.png */; settings = {ASSET_TAGS = (); }; };
+		700EDE911CA860FB00C055E2 /* takePhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 700EDE901CA860FB00C055E2 /* takePhoto.png */; settings = {ASSET_TAGS = (); }; };
+		700EDE981CA8D0A400C055E2 /* FDTakeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700EDE971CA8D0A400C055E2 /* FDTakeController.m */; settings = {ASSET_TAGS = (); }; };
+		701800001CA9D1DD003E7F08 /* VeedaSharePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7018FFFE1CA9D1DD003E7F08 /* VeedaSharePhotoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		701800011CA9D1DD003E7F08 /* VeedaSharePhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7018FFFF1CA9D1DD003E7F08 /* VeedaSharePhotoViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		701800171CAB1A83003E7F08 /* facebookShare.png in Resources */ = {isa = PBXBuildFile; fileRef = 701800161CAB1A83003E7F08 /* facebookShare.png */; settings = {ASSET_TAGS = (); }; };
+		701800191CAB1A8E003E7F08 /* instagramShare.png in Resources */ = {isa = PBXBuildFile; fileRef = 701800181CAB1A8E003E7F08 /* instagramShare.png */; settings = {ASSET_TAGS = (); }; };
+		7018001B1CAB1A98003E7F08 /* twitterShare.png in Resources */ = {isa = PBXBuildFile; fileRef = 7018001A1CAB1A98003E7F08 /* twitterShare.png */; settings = {ASSET_TAGS = (); }; };
+		7018002B1CAC2B1A003E7F08 /* VeedaGenderShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701800291CAC2B1A003E7F08 /* VeedaGenderShareViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7018002C1CAC2B1A003E7F08 /* VeedaGenderShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7018002A1CAC2B1A003E7F08 /* VeedaGenderShareViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7018002E1CAC38BD003E7F08 /* boy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7018002D1CAC38BC003E7F08 /* boy.png */; settings = {ASSET_TAGS = (); }; };
+		701800301CAC38C7003E7F08 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 7018002F1CAC38C7003E7F08 /* girl.png */; settings = {ASSET_TAGS = (); }; };
+		7018003A1CAC5C59003E7F08 /* oneMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = 701800391CAC5C59003E7F08 /* oneMonth.png */; settings = {ASSET_TAGS = (); }; };
+		7018003C1CAC5C66003E7F08 /* twoMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = 7018003B1CAC5C66003E7F08 /* twoMonth.png */; settings = {ASSET_TAGS = (); }; };
+		7018003E1CAC5C78003E7F08 /* threeMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = 7018003D1CAC5C78003E7F08 /* threeMonth.png */; settings = {ASSET_TAGS = (); }; };
+		701800401CAC5C88003E7F08 /* fourMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = 7018003F1CAC5C88003E7F08 /* fourMonth.png */; settings = {ASSET_TAGS = (); }; };
+		701800421CAC5C92003E7F08 /* fiveMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = 701800411CAC5C92003E7F08 /* fiveMonth.png */; settings = {ASSET_TAGS = (); }; };
+		701800441CAC5C9F003E7F08 /* sevenMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = 701800431CAC5C9F003E7F08 /* sevenMonth.png */; settings = {ASSET_TAGS = (); }; };
+		701800461CAC5CB5003E7F08 /* eightMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = 701800451CAC5CB5003E7F08 /* eightMonth.png */; settings = {ASSET_TAGS = (); }; };
+		701800481CAC5CC7003E7F08 /* nineMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = 701800471CAC5CC7003E7F08 /* nineMonth.png */; settings = {ASSET_TAGS = (); }; };
+		7018004C1CAC5DE5003E7F08 /* VeedaMonthShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7018004A1CAC5DE5003E7F08 /* VeedaMonthShareViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7018004D1CAC5DE5003E7F08 /* VeedaMonthShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7018004B1CAC5DE5003E7F08 /* VeedaMonthShareViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		701D962A1C403256002BB4B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 701D96291C403256002BB4B6 /* main.m */; };
+		701D962D1C403256002BB4B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 701D962C1C403256002BB4B6 /* AppDelegate.m */; };
+		701D96331C403257002BB4B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701D96311C403257002BB4B6 /* Main.storyboard */; };
+		701D96361C403257002BB4B6 /* VeedaMom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 701D96341C403257002BB4B6 /* VeedaMom.xcdatamodeld */; };
+		701D96381C403257002BB4B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701D96371C403257002BB4B6 /* Assets.xcassets */; };
+		701D96461C403257002BB4B6 /* VeedaMomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 701D96451C403257002BB4B6 /* VeedaMomTests.m */; };
+		701D96511C403257002BB4B6 /* VeedaMomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 701D96501C403257002BB4B6 /* VeedaMomUITests.m */; };
+		701D96631C403C1C002BB4B6 /* VeedaSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701D96611C403C1C002BB4B6 /* VeedaSignInViewController.m */; settings = {ASSET_TAGS = (); }; };
+		701D96641C403C1C002BB4B6 /* VeedaSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 701D96621C403C1C002BB4B6 /* VeedaSignInViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7027F4261CB1952300F869D2 /* sixMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = 7027F4251CB1952300F869D2 /* sixMonth.png */; settings = {ASSET_TAGS = (); }; };
+		7030F7881C948B6F007082DD /* uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 7030F7871C948B6F007082DD /* uncheck.png */; settings = {ASSET_TAGS = (); }; };
+		703826B01C4B121200DF3537 /* arrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 703826AF1C4B121200DF3537 /* arrowRight.png */; settings = {ASSET_TAGS = (); }; };
+		703826B21C4B134500DF3537 /* separator.png in Resources */ = {isa = PBXBuildFile; fileRef = 703826B11C4B134500DF3537 /* separator.png */; settings = {ASSET_TAGS = (); }; };
+		704B15191C4888ED0063C539 /* VeedaUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 704B15181C4888ED0063C539 /* VeedaUtils.m */; settings = {ASSET_TAGS = (); }; };
+		704B151D1C488C460063C539 /* logoVeedamom.png in Resources */ = {isa = PBXBuildFile; fileRef = 704B151C1C488C460063C539 /* logoVeedamom.png */; settings = {ASSET_TAGS = (); }; };
+		708F1B3E1C950ADA00872E97 /* VeedaHospitalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708F1B3C1C950ADA00872E97 /* VeedaHospitalsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		708F1B3F1C950ADA00872E97 /* VeedaHospitalsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 708F1B3D1C950ADA00872E97 /* VeedaHospitalsViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		708F1B431C959DEE00872E97 /* VeedaHomeHospitalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708F1B411C959DEE00872E97 /* VeedaHomeHospitalsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		708F1B441C959DEE00872E97 /* VeedaHomeHospitalsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 708F1B421C959DEE00872E97 /* VeedaHomeHospitalsViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		708F1B481C95FBC300872E97 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708F1B471C95FBC300872E97 /* CoreLocation.framework */; };
+		708F1B4C1C9645CC00872E97 /* VeedaHospitalsNearFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = 708F1B4B1C9645CB00872E97 /* VeedaHospitalsNearFacade.m */; settings = {ASSET_TAGS = (); }; };
+		708F1B521C965D9D00872E97 /* VeedaHospitalsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 708F1B511C965D9D00872E97 /* VeedaHospitalsModel.m */; settings = {ASSET_TAGS = (); }; };
+		708F1B551C965F1B00872E97 /* VeedaHospital.m in Sources */ = {isa = PBXBuildFile; fileRef = 708F1B541C965F1B00872E97 /* VeedaHospital.m */; settings = {ASSET_TAGS = (); }; };
+		708F1B571C96683000872E97 /* iconHospital.png in Resources */ = {isa = PBXBuildFile; fileRef = 708F1B561C96682F00872E97 /* iconHospital.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		701D96421C403257002BB4B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 701D961D1C403256002BB4B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 701D96241C403256002BB4B6;
+			remoteInfo = VeedaMom;
+		};
+		701D964D1C403257002BB4B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 701D961D1C403256002BB4B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 701D96241C403256002BB4B6;
+			remoteInfo = VeedaMom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27C81B4B6912B0900A9E570F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3A421AEAFC259903B6CAC770 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7009484C1C8221960098127C /* exercices.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exercices.png; sourceTree = "<group>"; };
+		7009484F1C82237D0098127C /* VeedaEvaluationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeedaEvaluationViewController.h; sourceTree = "<group>"; };
+		700948501C82237D0098127C /* VeedaEvaluationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeedaEvaluationViewController.m; sourceTree = "<group>"; };
+		700948541C8237FD0098127C /* arrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowLeft.png; sourceTree = "<group>"; };
+		700948561C824D360098127C /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		7009485C1C8268B90098127C /* separator2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = separator2.png; sourceTree = "<group>"; };
+		700948A81C8B4E500098127C /* VeedaResultTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeedaResultTestViewController.h; sourceTree = "<group>"; };
+		700948A91C8B4E500098127C /* VeedaResultTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeedaResultTestViewController.m; sourceTree = "<group>"; };
+		700948AA1C8B4E500098127C /* VeedaResultTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VeedaResultTestViewController.xib; sourceTree = "<group>"; };
+		700948AD1C8B59E30098127C /* faceHappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faceHappy.png; sourceTree = "<group>"; };
+		700948AE1C8B59E30098127C /* faceSad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faceSad.png; sourceTree = "<group>"; };
+		700948AF1C8B59E30098127C /* faceVerySad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faceVerySad.png; sourceTree = "<group>"; };
+		700948B81C8B9ED00098127C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		700948B91C8BA16F0098127C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		700948BA1C8BA16F0098127C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		700948C51C8D266E0098127C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VeedaEvaluationViewController.xib; sourceTree = "<group>"; };
+		700948C91C8D27360098127C /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/VeedaEvaluationViewController.xib; sourceTree = "<group>"; };
+		700AB73D1C42BC4F0089B0D8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		700AB7401C42CFEA0089B0D8 /* padlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = padlock.png; sourceTree = "<group>"; };
+		700AB7421C42D0000089B0D8 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		700AB7441C42DBE00089B0D8 /* VeedaSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeedaSignUpViewController.h; sourceTree = "<group>"; };
+		700AB7451C42DBE00089B0D8 /* VeedaSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeedaSignUpViewController.m; sourceTree = "<group>"; };
+		700AB7461C42DBE00089B0D8 /* VeedaSignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VeedaSignUpViewController.xib; sourceTree = "<group>"; };
+		700AB7491C42E71B0089B0D8 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		700AB74B1C42EDEF0089B0D8 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		700AB74D1C42F74E0089B0D8 /* VeedaHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeedaHomeViewController.h; sourceTree = "<group>"; };
+		700AB74E1C42F74E0089B0D8 /* VeedaHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeedaHomeViewController.m; sourceTree = "<group>"; };
+		700AB74F1C42F74E0089B0D8 /* VeedaHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VeedaHomeViewController.xib; sourceTree = "<group>"; };
+		700AB7531C42FF1B0089B0D8 /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bell.png; sourceTree = "<group>"; };
+		700AB7551C42FF280089B0D8 /* diary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diary.png; sourceTree = "<group>"; };
+		700AB7591C42FF390089B0D8 /* hospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hospital.png; sourceTree = "<group>"; };
+		700AB75B1C42FF4B0089B0D8 /* rating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rating.png; sourceTree = "<group>"; };
+		700AB75D1C42FF530089B0D8 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		700AB75F1C432FE60089B0D8 /* videos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videos.png; sourceTree = "<group>"; };
+		700AB76B1C452F720089B0D8 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = Menu/MenuViewController.h; sourceTree = "<group>"; };
+		700AB76C1C452F720089B0D8 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = Menu/MenuViewController.m; sourceTree = "<group>"; };
+		700AB76D1C452F720089B0D8 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuViewController.xib; path = Menu/MenuViewController.xib; sourceTree = "<group>"; };
+		700AB7721C452FC10089B0D8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		700AB7731C452FC10089B0D8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		700AB7761C45336B0089B0D8 /* VeedaHeaderBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeedaHeaderBarViewController.h; sourceTree = "<group>"; };
+		700AB7771C45336B0089B0D8 /* VeedaHeaderBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeedaHeaderBarViewController.m; sourceTree = "<group>"; };
+		700AB7781C45336B0089B0D8 /* VeedaHeaderBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VeedaHeaderBarViewController.xib; sourceTree = "<group>"; };
+		700AB77C1C4539410089B0D8 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		700AB77E1C45413B0089B0D8 /* logoBebe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoBebe.png; sourceTree = "<group>"; };
+		700AB7811C4544F30089B0D8 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingCollectionView.h; path = TpKeyBoard/TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		700AB7821C4544F30089B0D8 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingCollectionView.m; path = TpKeyBoard/TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		700AB7831C4544F30089B0D8 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = TpKeyBoard/TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		700AB7841C4544F30089B0D8 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = TpKeyBoard/TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		700AB7851C4544F30089B0D8 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingTableView.h; path = TpKeyBoard/TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		700AB7861C4544F30089B0D8 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingTableView.m; path = TpKeyBoard/TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		700AB7871C4544F30089B0D8 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "TpKeyBoard/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		700AB7881C4544F30089B0D8 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TPKeyboardAvoidingAdditions.m"; path = "TpKeyBoard/UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		700EDE841CA84EDE00C055E2 /* VeedaShareHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeedaShareHomeViewController.h; sourceTree = "<group>"; };
+		700EDE851CA84EDE00C055E2 /* VeedaShareHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeedaShareHomeViewController.m; sourceTree = "<group>"; };
+		700EDE861CA84EDE00C055E2 /* VeedaShareHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VeedaShareHomeViewController.xib; sourceTree = "<group>"; };
+		700EDE8A1CA860E300C055E2 /* genderBaby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = genderBaby.png; sourceTree = "<group>"; };
+		700EDE8C1CA860EE00C055E2 /* monthsBaby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monthsBaby.png; sourceTree = "<group>"; };
+		700EDE8E1CA860F400C055E2 /* namesBaby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = namesBaby.png; sourceTree = "<group>"; };
+		700EDE901CA860FB00C055E2 /* takePhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takePhoto.png; sourceTree = "<group>"; };
+		700EDE961CA8D0A400C055E2 /* FDTakeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDTakeController.h; path = FDTake/FDTakeController.h; sourceTree = "<group>"; };
+		700EDE971CA8D0A400C055E2 /* FDTakeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDTakeController.m; path = FDTake/FDTakeController.m; sourceTree = "<group>"; };
+		701800161CAB1A83003E7F08 /* facebookShare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookShare.png; sourceTree = "<group>"; };
+		701800181CAB1A8E003E7F08 /* instagramShare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagramShare.png; sourceTree = "<group>"; };
+		7018001A1CAB1A98003E7F08 /* twitterShare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitterShare.png; sourceTree = "<group>"; };
+		701800281CAC2B1A003E7F08 /* VeedaGenderShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeedaGenderShareViewController.h; sourceTree = "<group>"; };
+		701800291CAC2B1A003E7F08 /* VeedaGenderShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeedaGenderShareViewController.m; sourceTree = "<group>"; };
+		7018002A1CAC2B1A003E7F08 /* VeedaGenderShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VeedaGenderShareViewController.xib; sourceTree = "<group>"; };
+		7018002D1CAC38BC003E7F08 /* boy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boy.png; sourceTree = "<group>"; };
+		7018002F1CAC38C7003E7F08 /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
+		701800391CAC5C59003E7F08 /* oneMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oneMonth.png; sourceTree = "<group>"; };
+		7018003B1CAC5C66003E7F08 /* twoMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twoMonth.png; sourceTree = "<group>"; };
+		7018003D1CAC5C78003E7F08 /* threeMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = threeMonth.png; sourceTree = "<group>"; };
+		7018003F1CAC5C88003E7F08 /* fourMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fourMonth.png; sourceTree = "<group>"; };
+		701800411CAC5C92003E7F08 /* fiveMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fiveMonth.png; sourceTree = "<group>"; };
+		701800431CAC5C9F003E7F08 /* sevenMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sevenMonth.png; sourceTree = "<group>"; };
+		701800451CAC5CB5003E7F08 /* eightMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eightMonth.png; sourceTree = "<group>"; };
+		701800471CAC5CC7003E7F08 /* nineMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nineMonth.png; sourceTree = "<group>"; };
+		701800491CAC5DE5003E7F08 /* VeedaMonthShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeedaMonthShareViewController.h; sourceTree = "<group>"; };
+		7018004A1CAC5DE5003E7F08 /* VeedaMonthShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeedaMonthShareViewController.m; sourceTree = "<group>"; };
+		7018004B1CAC5DE5003E7F08 /* VeedaMonthShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VeedaMonthShareViewController.xib; sourceTree = "<group>"; };
+		7018FFFD1CA9D1DD003E7F08 /* VeedaSharePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeedaSharePhotoViewController.h; sourceTree = "<group>"; };
+		7018FFFE1CA9D1DD003E7F08 /* VeedaSharePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeedaSharePhotoViewController.m; sourceTree = "<group>"; };
+		7018FFFF1CA9D1DD003E7F08 /* VeedaSharePhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VeedaSharePhotoViewController.xib; sourceTree = "<group>"; };
+		701D96251C403256002BB4B6 /* VeedaMom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeedaMom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		701D96291C403256002BB4B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		701D962B1C403256002BB4B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		701D962C1C403256002BB4B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		701D96321C403257002BB4B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		701D96351C403257002BB4B6 /* VeedaMom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VeedaMom.xcdatamodel; sourceTree = "<group>"; };
+		701D96371C403257002BB4B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		701D963C1C403257002BB4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		701D96411C403257002BB4B6 /* VeedaMomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeedaMomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		701D96451C403257002BB4B6 /* VeedaMomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VeedaMomTests.m; sourceTree = "<group>"; };
+		701D96471C403257002BB4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		701D964C1C403257002BB4B6 /* VeedaMomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeedaMomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		701D96501C403257002BB4B6 /* VeedaMomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VeedaMomUITests.m; sourceTree = "<group>"; };
+		701D96521C403257002BB4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		701D96601C403C1C002BB4B6 /* VeedaSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeedaSignInViewController.h; sourceTree = "<group>"; };
+		701D96611C403C1C002BB4B6 /* VeedaSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeedaSignInViewController.m; sourceTree = "<group>"; };
+		701D96621C403C1C002BB4B6 /* VeedaSignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VeedaSignInViewController.xib; sourceTree = "<group>"; };
+		7027F4251CB1952300F869D2 /* sixMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sixMonth.png; sourceTree = "<group>"; };
+		7030F7871C948B6F007082DD /* uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck.png; sourceTree = "<group>"; };
+		703826AF1C4B121200DF3537 /* arrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowRight.png; sourceTree = "<group>"; };
+		703826B11C4B134500DF3537 /* separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = separator.png; sourceTree = "<group>"; };
+		704B15171C4888ED0063C539 /* VeedaUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeedaUtils.h; sourceTree = "<group>"; };
+		704B15181C4888ED0063C539 /* VeedaUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeedaUtils.m; sourceTree = "<group>"; };
+		704B151C1C488C460063C539 /* logoVeedamom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoVeedamom.png; sourceTree = "<group>"; };
+		708F1B3B1C950ADA00872E97 /* VeedaHospitalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeedaHospitalsViewController.h; sourceTree = "<group>"; };
+		708F1B3C1C950ADA00872E97 /* VeedaHospitalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeedaHospitalsViewController.m; sourceTree = "<group>"; };
+		708F1B3D1C950ADA00872E97 /* VeedaHospitalsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VeedaHospitalsViewController.xib; sourceTree = "<group>"; };
+		708F1B401C959DED00872E97 /* VeedaHomeHospitalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeedaHomeHospitalsViewController.h; sourceTree = "<group>"; };
+		708F1B411C959DEE00872E97 /* VeedaHomeHospitalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeedaHomeHospitalsViewController.m; sourceTree = "<group>"; };
+		708F1B421C959DEE00872E97 /* VeedaHomeHospitalsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VeedaHomeHospitalsViewController.xib; sourceTree = "<group>"; };
+		708F1B471C95FBC300872E97 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		708F1B4A1C9645CB00872E97 /* VeedaHospitalsNearFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeedaHospitalsNearFacade.h; sourceTree = "<group>"; };
+		708F1B4B1C9645CB00872E97 /* VeedaHospitalsNearFacade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeedaHospitalsNearFacade.m; sourceTree = "<group>"; };
+		708F1B501C965D9D00872E97 /* VeedaHospitalsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeedaHospitalsModel.h; sourceTree = "<group>"; };
+		708F1B511C965D9D00872E97 /* VeedaHospitalsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeedaHospitalsModel.m; sourceTree = "<group>"; };
+		708F1B531C965F1B00872E97 /* VeedaHospital.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VeedaHospital.h; sourceTree = "<group>"; };
+		708F1B541C965F1B00872E97 /* VeedaHospital.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VeedaHospital.m; sourceTree = "<group>"; };
+		708F1B561C96682F00872E97 /* iconHospital.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconHospital.png; sourceTree = "<group>"; };
+		D4F285034C04A6D89834C069 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		701D96221C403256002BB4B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708F1B481C95FBC300872E97 /* CoreLocation.framework in Frameworks */,
+				2C7D9CB4751DAEF5CB4D170A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701D963E1C403257002BB4B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701D96491C403257002BB4B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		132C3D8E2FFE850F4773D061 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27C81B4B6912B0900A9E570F /* Pods.debug.xcconfig */,
+				D4F285034C04A6D89834C069 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7009484E1C8222E80098127C /* Evaluation */ = {
+			isa = PBXGroup;
+			children = (
+				7009484F1C82237D0098127C /* VeedaEvaluationViewController.h */,
+				700948501C82237D0098127C /* VeedaEvaluationViewController.m */,
+				700948C61C8D266E0098127C /* VeedaEvaluationViewController.xib */,
+				700948A81C8B4E500098127C /* VeedaResultTestViewController.h */,
+				700948A91C8B4E500098127C /* VeedaResultTestViewController.m */,
+				700948AA1C8B4E500098127C /* VeedaResultTestViewController.xib */,
+			);
+			name = Evaluation;
+			sourceTree = "<group>";
+		};
+		700AB7241C41E7510089B0D8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				700AB7251C41E7630089B0D8 /* images */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		700AB7251C41E7630089B0D8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				700EDE891CA860CF00C055E2 /* share */,
+				700AB77B1C4536910089B0D8 /* Bar */,
+				700AB7521C42FEF90089B0D8 /* Home */,
+				700AB73F1C42CF580089B0D8 /* login */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		700AB73F1C42CF580089B0D8 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				700AB7401C42CFEA0089B0D8 /* padlock.png */,
+				700AB7421C42D0000089B0D8 /* user.png */,
+				700AB7491C42E71B0089B0D8 /* line.png */,
+				700AB74B1C42EDEF0089B0D8 /* arrow.png */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		700AB7521C42FEF90089B0D8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				700AB7551C42FF280089B0D8 /* diary.png */,
+				700AB75F1C432FE60089B0D8 /* videos.png */,
+				7009484C1C8221960098127C /* exercices.png */,
+				700AB7591C42FF390089B0D8 /* hospital.png */,
+				700AB75B1C42FF4B0089B0D8 /* rating.png */,
+				700AB75D1C42FF530089B0D8 /* share.png */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		700AB76A1C452CFC0089B0D8 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				700AB76B1C452F720089B0D8 /* MenuViewController.h */,
+				700AB76C1C452F720089B0D8 /* MenuViewController.m */,
+				700AB76D1C452F720089B0D8 /* MenuViewController.xib */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		700AB7701C452F850089B0D8 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				700EDE951CA8D07A00C055E2 /* TDTake */,
+				700AB7801C4544B90089B0D8 /* TpKeyBoard */,
+				700AB7711C452F980089B0D8 /* SwRevealViewController */,
+			);
+			name = Extras;
+			sourceTree = "<group>";
+		};
+		700AB7711C452F980089B0D8 /* SwRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				700AB7721C452FC10089B0D8 /* SWRevealViewController.h */,
+				700AB7731C452FC10089B0D8 /* SWRevealViewController.m */,
+			);
+			name = SwRevealViewController;
+			sourceTree = "<group>";
+		};
+		700AB7751C4532580089B0D8 /* Parent */ = {
+			isa = PBXGroup;
+			children = (
+				700AB7761C45336B0089B0D8 /* VeedaHeaderBarViewController.h */,
+				700AB7771C45336B0089B0D8 /* VeedaHeaderBarViewController.m */,
+				700AB7781C45336B0089B0D8 /* VeedaHeaderBarViewController.xib */,
+			);
+			name = Parent;
+			sourceTree = "<group>";
+		};
+		700AB77B1C4536910089B0D8 /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				700AB7531C42FF1B0089B0D8 /* bell.png */,
+				700AB77C1C4539410089B0D8 /* menu.png */,
+				700AB77E1C45413B0089B0D8 /* logoBebe.png */,
+				700948AD1C8B59E30098127C /* faceHappy.png */,
+				700948AE1C8B59E30098127C /* faceSad.png */,
+				708F1B561C96682F00872E97 /* iconHospital.png */,
+				700948AF1C8B59E30098127C /* faceVerySad.png */,
+				704B151C1C488C460063C539 /* logoVeedamom.png */,
+				7009485C1C8268B90098127C /* separator2.png */,
+				703826AF1C4B121200DF3537 /* arrowRight.png */,
+				7030F7871C948B6F007082DD /* uncheck.png */,
+				700948541C8237FD0098127C /* arrowLeft.png */,
+				703826B11C4B134500DF3537 /* separator.png */,
+				700948561C824D360098127C /* check.png */,
+			);
+			name = Bar;
+			sourceTree = "<group>";
+		};
+		700AB7801C4544B90089B0D8 /* TpKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				700AB7811C4544F30089B0D8 /* TPKeyboardAvoidingCollectionView.h */,
+				700AB7821C4544F30089B0D8 /* TPKeyboardAvoidingCollectionView.m */,
+				700AB7831C4544F30089B0D8 /* TPKeyboardAvoidingScrollView.h */,
+				700AB7841C4544F30089B0D8 /* TPKeyboardAvoidingScrollView.m */,
+				700AB7851C4544F30089B0D8 /* TPKeyboardAvoidingTableView.h */,
+				700AB7861C4544F30089B0D8 /* TPKeyboardAvoidingTableView.m */,
+				700AB7871C4544F30089B0D8 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				700AB7881C4544F30089B0D8 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			name = TpKeyBoard;
+			sourceTree = "<group>";
+		};
+		700EDE831CA84E8900C055E2 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				700EDE841CA84EDE00C055E2 /* VeedaShareHomeViewController.h */,
+				700EDE851CA84EDE00C055E2 /* VeedaShareHomeViewController.m */,
+				700EDE861CA84EDE00C055E2 /* VeedaShareHomeViewController.xib */,
+				7018FFFD1CA9D1DD003E7F08 /* VeedaSharePhotoViewController.h */,
+				7018FFFE1CA9D1DD003E7F08 /* VeedaSharePhotoViewController.m */,
+				7018FFFF1CA9D1DD003E7F08 /* VeedaSharePhotoViewController.xib */,
+				701800281CAC2B1A003E7F08 /* VeedaGenderShareViewController.h */,
+				701800291CAC2B1A003E7F08 /* VeedaGenderShareViewController.m */,
+				7018002A1CAC2B1A003E7F08 /* VeedaGenderShareViewController.xib */,
+				701800491CAC5DE5003E7F08 /* VeedaMonthShareViewController.h */,
+				7018004A1CAC5DE5003E7F08 /* VeedaMonthShareViewController.m */,
+				7018004B1CAC5DE5003E7F08 /* VeedaMonthShareViewController.xib */,
+			);
+			name = Share;
+			sourceTree = "<group>";
+		};
+		700EDE891CA860CF00C055E2 /* share */ = {
+			isa = PBXGroup;
+			children = (
+				701800391CAC5C59003E7F08 /* oneMonth.png */,
+				7018003B1CAC5C66003E7F08 /* twoMonth.png */,
+				7018003D1CAC5C78003E7F08 /* threeMonth.png */,
+				7018003F1CAC5C88003E7F08 /* fourMonth.png */,
+				701800411CAC5C92003E7F08 /* fiveMonth.png */,
+				7027F4251CB1952300F869D2 /* sixMonth.png */,
+				701800431CAC5C9F003E7F08 /* sevenMonth.png */,
+				701800451CAC5CB5003E7F08 /* eightMonth.png */,
+				7018001A1CAB1A98003E7F08 /* twitterShare.png */,
+				701800471CAC5CC7003E7F08 /* nineMonth.png */,
+				7018002F1CAC38C7003E7F08 /* girl.png */,
+				7018002D1CAC38BC003E7F08 /* boy.png */,
+				701800181CAB1A8E003E7F08 /* instagramShare.png */,
+				701800161CAB1A83003E7F08 /* facebookShare.png */,
+				700EDE8A1CA860E300C055E2 /* genderBaby.png */,
+				700EDE8C1CA860EE00C055E2 /* monthsBaby.png */,
+				700EDE8E1CA860F400C055E2 /* namesBaby.png */,
+				700EDE901CA860FB00C055E2 /* takePhoto.png */,
+			);
+			name = share;
+			sourceTree = "<group>";
+		};
+		700EDE951CA8D07A00C055E2 /* TDTake */ = {
+			isa = PBXGroup;
+			children = (
+				700EDE961CA8D0A400C055E2 /* FDTakeController.h */,
+				700EDE971CA8D0A400C055E2 /* FDTakeController.m */,
+			);
+			name = TDTake;
+			sourceTree = "<group>";
+		};
+		701D961C1C403256002BB4B6 = {
+			isa = PBXGroup;
+			children = (
+				701D96271C403256002BB4B6 /* VeedaMom */,
+				701D96441C403257002BB4B6 /* VeedaMomTests */,
+				701D964F1C403257002BB4B6 /* VeedaMomUITests */,
+				701D96261C403256002BB4B6 /* Products */,
+				132C3D8E2FFE850F4773D061 /* Pods */,
+				E5D90806EB66AF0D39CC8F44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		701D96261C403256002BB4B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				701D96251C403256002BB4B6 /* VeedaMom.app */,
+				701D96411C403257002BB4B6 /* VeedaMomTests.xctest */,
+				701D964C1C403257002BB4B6 /* VeedaMomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		701D96271C403256002BB4B6 /* VeedaMom */ = {
+			isa = PBXGroup;
+			children = (
+				701D965E1C403B65002BB4B6 /* Sign in / Sign up */,
+				700EDE831CA84E8900C055E2 /* Share */,
+				708F1B4F1C965D6200872E97 /* Model */,
+				708F1B491C96456700872E97 /* Facade */,
+				7030F7891C948BD2007082DD /* Hospitals */,
+				7009484E1C8222E80098127C /* Evaluation */,
+				701D965F1C403B9F002BB4B6 /* Home */,
+				700AB7751C4532580089B0D8 /* Parent */,
+				700AB7701C452F850089B0D8 /* Extras */,
+				700AB76A1C452CFC0089B0D8 /* Menu */,
+				700AB7241C41E7510089B0D8 /* Assets */,
+				704B15161C4888A60063C539 /* Util */,
+				701D962B1C403256002BB4B6 /* AppDelegate.h */,
+				701D962C1C403256002BB4B6 /* AppDelegate.m */,
+				701D96311C403257002BB4B6 /* Main.storyboard */,
+				701D96371C403257002BB4B6 /* Assets.xcassets */,
+				701D963C1C403257002BB4B6 /* Info.plist */,
+				701D96341C403257002BB4B6 /* VeedaMom.xcdatamodeld */,
+				701D96281C403256002BB4B6 /* Supporting Files */,
+				700AB73D1C42BC4F0089B0D8 /* Launch Screen.storyboard */,
+				700948B71C8B9EA70098127C /* Localizable.strings */,
+			);
+			path = VeedaMom;
+			sourceTree = "<group>";
+		};
+		701D96281C403256002BB4B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				701D96291C403256002BB4B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		701D96441C403257002BB4B6 /* VeedaMomTests */ = {
+			isa = PBXGroup;
+			children = (
+				701D96451C403257002BB4B6 /* VeedaMomTests.m */,
+				701D96471C403257002BB4B6 /* Info.plist */,
+			);
+			path = VeedaMomTests;
+			sourceTree = "<group>";
+		};
+		701D964F1C403257002BB4B6 /* VeedaMomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				701D96501C403257002BB4B6 /* VeedaMomUITests.m */,
+				701D96521C403257002BB4B6 /* Info.plist */,
+			);
+			path = VeedaMomUITests;
+			sourceTree = "<group>";
+		};
+		701D965E1C403B65002BB4B6 /* Sign in / Sign up */ = {
+			isa = PBXGroup;
+			children = (
+				701D96601C403C1C002BB4B6 /* VeedaSignInViewController.h */,
+				701D96611C403C1C002BB4B6 /* VeedaSignInViewController.m */,
+				701D96621C403C1C002BB4B6 /* VeedaSignInViewController.xib */,
+				700AB7441C42DBE00089B0D8 /* VeedaSignUpViewController.h */,
+				700AB7451C42DBE00089B0D8 /* VeedaSignUpViewController.m */,
+				700AB7461C42DBE00089B0D8 /* VeedaSignUpViewController.xib */,
+			);
+			name = "Sign in / Sign up";
+			sourceTree = "<group>";
+		};
+		701D965F1C403B9F002BB4B6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				700AB74D1C42F74E0089B0D8 /* VeedaHomeViewController.h */,
+				700AB74E1C42F74E0089B0D8 /* VeedaHomeViewController.m */,
+				700AB74F1C42F74E0089B0D8 /* VeedaHomeViewController.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		7030F7891C948BD2007082DD /* Hospitals */ = {
+			isa = PBXGroup;
+			children = (
+				708F1B3B1C950ADA00872E97 /* VeedaHospitalsViewController.h */,
+				708F1B3C1C950ADA00872E97 /* VeedaHospitalsViewController.m */,
+				708F1B3D1C950ADA00872E97 /* VeedaHospitalsViewController.xib */,
+				708F1B401C959DED00872E97 /* VeedaHomeHospitalsViewController.h */,
+				708F1B411C959DEE00872E97 /* VeedaHomeHospitalsViewController.m */,
+				708F1B421C959DEE00872E97 /* VeedaHomeHospitalsViewController.xib */,
+			);
+			name = Hospitals;
+			sourceTree = "<group>";
+		};
+		704B15161C4888A60063C539 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				704B15171C4888ED0063C539 /* VeedaUtils.h */,
+				704B15181C4888ED0063C539 /* VeedaUtils.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		708F1B491C96456700872E97 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				708F1B4A1C9645CB00872E97 /* VeedaHospitalsNearFacade.h */,
+				708F1B4B1C9645CB00872E97 /* VeedaHospitalsNearFacade.m */,
+			);
+			name = Facade;
+			sourceTree = "<group>";
+		};
+		708F1B4F1C965D6200872E97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				708F1B501C965D9D00872E97 /* VeedaHospitalsModel.h */,
+				708F1B511C965D9D00872E97 /* VeedaHospitalsModel.m */,
+				708F1B531C965F1B00872E97 /* VeedaHospital.h */,
+				708F1B541C965F1B00872E97 /* VeedaHospital.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E5D90806EB66AF0D39CC8F44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				708F1B471C95FBC300872E97 /* CoreLocation.framework */,
+				3A421AEAFC259903B6CAC770 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		701D96241C403256002BB4B6 /* VeedaMom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701D96551C403257002BB4B6 /* Build configuration list for PBXNativeTarget "VeedaMom" */;
+			buildPhases = (
+				F842EEDCB4A5CADA8A13EB07 /* Check Pods Manifest.lock */,
+				701D96211C403256002BB4B6 /* Sources */,
+				701D96221C403256002BB4B6 /* Frameworks */,
+				701D96231C403256002BB4B6 /* Resources */,
+				FA8406163E3099473A218DF0 /* Embed Pods Frameworks */,
+				CA71D7E7701C026DA05C6A61 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeedaMom;
+			productName = VeedaMom;
+			productReference = 701D96251C403256002BB4B6 /* VeedaMom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		701D96401C403257002BB4B6 /* VeedaMomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701D96581C403257002BB4B6 /* Build configuration list for PBXNativeTarget "VeedaMomTests" */;
+			buildPhases = (
+				701D963D1C403257002BB4B6 /* Sources */,
+				701D963E1C403257002BB4B6 /* Frameworks */,
+				701D963F1C403257002BB4B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				701D96431C403257002BB4B6 /* PBXTargetDependency */,
+			);
+			name = VeedaMomTests;
+			productName = VeedaMomTests;
+			productReference = 701D96411C403257002BB4B6 /* VeedaMomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		701D964B1C403257002BB4B6 /* VeedaMomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 701D965B1C403257002BB4B6 /* Build configuration list for PBXNativeTarget "VeedaMomUITests" */;
+			buildPhases = (
+				701D96481C403257002BB4B6 /* Sources */,
+				701D96491C403257002BB4B6 /* Frameworks */,
+				701D964A1C403257002BB4B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				701D964E1C403257002BB4B6 /* PBXTargetDependency */,
+			);
+			name = VeedaMomUITests;
+			productName = VeedaMomUITests;
+			productReference = 701D964C1C403257002BB4B6 /* VeedaMomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		701D961D1C403256002BB4B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "EMIGDIO CAMACHO CALDERON";
+				TargetAttributes = {
+					701D96241C403256002BB4B6 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					701D96401C403257002BB4B6 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 701D96241C403256002BB4B6;
+					};
+					701D964B1C403257002BB4B6 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 701D96241C403256002BB4B6;
+					};
+				};
+			};
+			buildConfigurationList = 701D96201C403256002BB4B6 /* Build configuration list for PBXProject "VeedaMom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 701D961C1C403256002BB4B6;
+			productRefGroup = 701D96261C403256002BB4B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				701D96241C403256002BB4B6 /* VeedaMom */,
+				701D96401C403257002BB4B6 /* VeedaMomTests */,
+				701D964B1C403257002BB4B6 /* VeedaMomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		701D96231C403256002BB4B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701D96381C403257002BB4B6 /* Assets.xcassets in Resources */,
+				701800481CAC5CC7003E7F08 /* nineMonth.png in Resources */,
+				7009485D1C8268B90098127C /* separator2.png in Resources */,
+				700EDE8D1CA860EE00C055E2 /* monthsBaby.png in Resources */,
+				700AB76F1C452F720089B0D8 /* MenuViewController.xib in Resources */,
+				701800171CAB1A83003E7F08 /* facebookShare.png in Resources */,
+				701800191CAB1A8E003E7F08 /* instagramShare.png in Resources */,
+				700948B11C8B59E30098127C /* faceSad.png in Resources */,
+				703826B21C4B134500DF3537 /* separator.png in Resources */,
+				701800421CAC5C92003E7F08 /* fiveMonth.png in Resources */,
+				7009484D1C8221960098127C /* exercices.png in Resources */,
+				701800011CA9D1DD003E7F08 /* VeedaSharePhotoViewController.xib in Resources */,
+				700EDE8B1CA860E300C055E2 /* genderBaby.png in Resources */,
+				700AB7561C42FF280089B0D8 /* diary.png in Resources */,
+				701800461CAC5CB5003E7F08 /* eightMonth.png in Resources */,
+				700AB7431C42D0000089B0D8 /* user.png in Resources */,
+				7018003C1CAC5C66003E7F08 /* twoMonth.png in Resources */,
+				7018004D1CAC5DE5003E7F08 /* VeedaMonthShareViewController.xib in Resources */,
+				700AB7601C432FE60089B0D8 /* videos.png in Resources */,
+				700AB74A1C42E71B0089B0D8 /* line.png in Resources */,
+				708F1B571C96683000872E97 /* iconHospital.png in Resources */,
+				700AB74C1C42EDEF0089B0D8 /* arrow.png in Resources */,
+				704B151D1C488C460063C539 /* logoVeedamom.png in Resources */,
+				7027F4261CB1952300F869D2 /* sixMonth.png in Resources */,
+				700948B21C8B59E30098127C /* faceVerySad.png in Resources */,
+				700EDE8F1CA860F400C055E2 /* namesBaby.png in Resources */,
+				700EDE911CA860FB00C055E2 /* takePhoto.png in Resources */,
+				701800401CAC5C88003E7F08 /* fourMonth.png in Resources */,
+				7018002C1CAC2B1A003E7F08 /* VeedaGenderShareViewController.xib in Resources */,
+				700EDE881CA84EDE00C055E2 /* VeedaShareHomeViewController.xib in Resources */,
+				700AB73E1C42BC4F0089B0D8 /* Launch Screen.storyboard in Resources */,
+				700AB7411C42CFEA0089B0D8 /* padlock.png in Resources */,
+				708F1B441C959DEE00872E97 /* VeedaHomeHospitalsViewController.xib in Resources */,
+				700948C41C8D266E0098127C /* VeedaEvaluationViewController.xib in Resources */,
+				701800301CAC38C7003E7F08 /* girl.png in Resources */,
+				700AB75E1C42FF530089B0D8 /* share.png in Resources */,
+				701D96641C403C1C002BB4B6 /* VeedaSignInViewController.xib in Resources */,
+				700AB77F1C45413B0089B0D8 /* logoBebe.png in Resources */,
+				7018003A1CAC5C59003E7F08 /* oneMonth.png in Resources */,
+				700948B51C8B9EA70098127C /* Localizable.strings in Resources */,
+				700948AC1C8B4E500098127C /* VeedaResultTestViewController.xib in Resources */,
+				708F1B3F1C950ADA00872E97 /* VeedaHospitalsViewController.xib in Resources */,
+				7018003E1CAC5C78003E7F08 /* threeMonth.png in Resources */,
+				700948B01C8B59E30098127C /* faceHappy.png in Resources */,
+				700948551C8237FD0098127C /* arrowLeft.png in Resources */,
+				7030F7881C948B6F007082DD /* uncheck.png in Resources */,
+				701800441CAC5C9F003E7F08 /* sevenMonth.png in Resources */,
+				700AB77A1C45336B0089B0D8 /* VeedaHeaderBarViewController.xib in Resources */,
+				700AB7541C42FF1B0089B0D8 /* bell.png in Resources */,
+				7018001B1CAB1A98003E7F08 /* twitterShare.png in Resources */,
+				700AB7511C42F74E0089B0D8 /* VeedaHomeViewController.xib in Resources */,
+				700AB75C1C42FF4B0089B0D8 /* rating.png in Resources */,
+				700AB7481C42DBE00089B0D8 /* VeedaSignUpViewController.xib in Resources */,
+				7018002E1CAC38BD003E7F08 /* boy.png in Resources */,
+				701D96331C403257002BB4B6 /* Main.storyboard in Resources */,
+				700948571C824D360098127C /* check.png in Resources */,
+				700AB77D1C4539410089B0D8 /* menu.png in Resources */,
+				703826B01C4B121200DF3537 /* arrowRight.png in Resources */,
+				700AB75A1C42FF390089B0D8 /* hospital.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701D963F1C403257002BB4B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701D964A1C403257002BB4B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA71D7E7701C026DA05C6A61 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F842EEDCB4A5CADA8A13EB07 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA8406163E3099473A218DF0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		701D96211C403256002BB4B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708F1B4C1C9645CC00872E97 /* VeedaHospitalsNearFacade.m in Sources */,
+				700AB7891C4544F30089B0D8 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				701D962D1C403256002BB4B6 /* AppDelegate.m in Sources */,
+				7018004C1CAC5DE5003E7F08 /* VeedaMonthShareViewController.m in Sources */,
+				700AB7791C45336B0089B0D8 /* VeedaHeaderBarViewController.m in Sources */,
+				700AB78C1C4544F30089B0D8 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				701D96631C403C1C002BB4B6 /* VeedaSignInViewController.m in Sources */,
+				701D962A1C403256002BB4B6 /* main.m in Sources */,
+				7018002B1CAC2B1A003E7F08 /* VeedaGenderShareViewController.m in Sources */,
+				700EDE871CA84EDE00C055E2 /* VeedaShareHomeViewController.m in Sources */,
+				700AB78A1C4544F30089B0D8 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				700AB7741C452FC10089B0D8 /* SWRevealViewController.m in Sources */,
+				700AB7501C42F74E0089B0D8 /* VeedaHomeViewController.m in Sources */,
+				701800001CA9D1DD003E7F08 /* VeedaSharePhotoViewController.m in Sources */,
+				704B15191C4888ED0063C539 /* VeedaUtils.m in Sources */,
+				700AB76E1C452F720089B0D8 /* MenuViewController.m in Sources */,
+				700948521C82237D0098127C /* VeedaEvaluationViewController.m in Sources */,
+				708F1B521C965D9D00872E97 /* VeedaHospitalsModel.m in Sources */,
+				700AB78B1C4544F30089B0D8 /* TPKeyboardAvoidingTableView.m in Sources */,
+				708F1B551C965F1B00872E97 /* VeedaHospital.m in Sources */,
+				708F1B431C959DEE00872E97 /* VeedaHomeHospitalsViewController.m in Sources */,
+				700948AB1C8B4E500098127C /* VeedaResultTestViewController.m in Sources */,
+				701D96361C403257002BB4B6 /* VeedaMom.xcdatamodeld in Sources */,
+				708F1B3E1C950ADA00872E97 /* VeedaHospitalsViewController.m in Sources */,
+				700EDE981CA8D0A400C055E2 /* FDTakeController.m in Sources */,
+				700AB7471C42DBE00089B0D8 /* VeedaSignUpViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701D963D1C403257002BB4B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701D96461C403257002BB4B6 /* VeedaMomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		701D96481C403257002BB4B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701D96511C403257002BB4B6 /* VeedaMomUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		701D96431C403257002BB4B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 701D96241C403256002BB4B6 /* VeedaMom */;
+			targetProxy = 701D96421C403257002BB4B6 /* PBXContainerItemProxy */;
+		};
+		701D964E1C403257002BB4B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 701D96241C403256002BB4B6 /* VeedaMom */;
+			targetProxy = 701D964D1C403257002BB4B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		700948B71C8B9EA70098127C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				700948B81C8B9ED00098127C /* en */,
+				700948BA1C8BA16F0098127C /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		700948C61C8D266E0098127C /* VeedaEvaluationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				700948C51C8D266E0098127C /* en */,
+				700948C91C8D27360098127C /* es */,
+			);
+			name = VeedaEvaluationViewController.xib;
+			sourceTree = "<group>";
+		};
+		701D96311C403257002BB4B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				701D96321C403257002BB4B6 /* Base */,
+				700948B91C8BA16F0098127C /* es */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		701D96531C403257002BB4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		701D96541C403257002BB4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		701D96561C403257002BB4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C81B4B6912B0900A9E570F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = VeedaMom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobil.VeedaMom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		701D96571C403257002BB4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F285034C04A6D89834C069 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = VeedaMom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobil.VeedaMom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		701D96591C403257002BB4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VeedaMomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobil.VeedaMomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeedaMom.app/VeedaMom";
+			};
+			name = Debug;
+		};
+		701D965A1C403257002BB4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VeedaMomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobil.VeedaMomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VeedaMom.app/VeedaMom";
+			};
+			name = Release;
+		};
+		701D965C1C403257002BB4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VeedaMomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobil.VeedaMomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VeedaMom;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		701D965D1C403257002BB4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VeedaMomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mobil.VeedaMomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VeedaMom;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		701D96201C403256002BB4B6 /* Build configuration list for PBXProject "VeedaMom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701D96531C403257002BB4B6 /* Debug */,
+				701D96541C403257002BB4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		701D96551C403257002BB4B6 /* Build configuration list for PBXNativeTarget "VeedaMom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701D96561C403257002BB4B6 /* Debug */,
+				701D96571C403257002BB4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		701D96581C403257002BB4B6 /* Build configuration list for PBXNativeTarget "VeedaMomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701D96591C403257002BB4B6 /* Debug */,
+				701D965A1C403257002BB4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		701D965B1C403257002BB4B6 /* Build configuration list for PBXNativeTarget "VeedaMomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				701D965C1C403257002BB4B6 /* Debug */,
+				701D965D1C403257002BB4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		701D96341C403257002BB4B6 /* VeedaMom.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				701D96351C403257002BB4B6 /* VeedaMom.xcdatamodel */,
+			);
+			currentVersion = 701D96351C403257002BB4B6 /* VeedaMom.xcdatamodel */;
+			path = VeedaMom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 701D961D1C403256002BB4B6 /* Project object */;
+}

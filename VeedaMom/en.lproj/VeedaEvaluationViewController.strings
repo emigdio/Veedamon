@@ -1,0 +1,219 @@
+
+/* Class = "UILabel"; text = "Tanto como siempre he podido hacerlo"; ObjectID = "0yK-NT-1jr"; */
+"0yK-NT-1jr.text" = "Tanto como siempre he podido hacerlo";
+
+/* Class = "UILabel"; text = "Sí, bastante"; ObjectID = "1CI-dJ-88S"; */
+"1CI-dJ-88S.text" = "Sí, bastante";
+
+/* Class = "UIButton"; normalTitle = "Continuar 7/10"; ObjectID = "1YX-wW-RsM"; */
+"1YX-wW-RsM.normalTitle" = "Continuar 7/10";
+
+/* Class = "UILabel"; text = "He estado ansiosa y preocupada sin motivo:"; ObjectID = "3Qr-pI-OdW"; */
+"3Qr-pI-OdW.text" = "He estado ansiosa y preocupada sin motivo:";
+
+/* Class = "UILabel"; text = "Me he sentido tan infeliz que he estado llorando:"; ObjectID = "3RI-CH-036"; */
+"3RI-CH-036.text" = "Me he sentido tan infeliz que he estado llorando:";
+
+/* Class = "UIButton"; normalTitle = "Continuar 1/10"; ObjectID = "3UN-zv-J5C"; */
+"3UN-zv-J5C.normalTitle" = "Continuar 1/10";
+
+/* Class = "UILabel"; text = "Sí, algunas veces"; ObjectID = "4QO-2x-VaA"; */
+"4QO-2x-VaA.text" = "Sí, algunas veces";
+
+/* Class = "UILabel"; text = "Sin duda, mucho menos ahora"; ObjectID = "5BP-jy-Pd4"; */
+"5BP-jy-Pd4.text" = "Sin duda, mucho menos ahora";
+
+/* Class = "UILabel"; text = "Sí, algunas veces"; ObjectID = "6rk-aj-QIb"; */
+"6rk-aj-QIb.text" = "Sí, algunas veces";
+
+/* Class = "UILabel"; text = "Me he sentido tan infeliz, que he tenido dificultad para dormir:"; ObjectID = "7su-kr-Nxb"; */
+"7su-kr-Nxb.text" = "Me he sentido tan infeliz, que he tenido dificultad para dormir:";
+
+/* Class = "UILabel"; text = "Evaluación y Diagnostico"; ObjectID = "A57-NV-N1e"; */
+"A57-NV-N1e.text" = "Evaluación y Diagnostico";
+
+/* Class = "UILabel"; text = "No, en lo absoluto"; ObjectID = "AeH-cN-r2Q"; */
+"AeH-cN-r2Q.text" = "No, en lo absoluto";
+
+/* Class = "UILabel"; text = "No, en lo absoluto"; ObjectID = "Ah8-4H-en7"; */
+"Ah8-4H-en7.text" = "No, en lo absoluto";
+
+/* Class = "UILabel"; text = "1."; ObjectID = "BJc-ae-qBt"; */
+"BJc-ae-qBt.text" = "1.";
+
+/* Class = "UIButton"; normalTitle = "Continuar 8/10"; ObjectID = "DcD-7M-4fv"; */
+"DcD-7M-4fv.normalTitle" = "Continuar 8/10";
+
+/* Class = "UILabel"; text = "No, no mucho"; ObjectID = "EBE-Q1-qGC"; */
+"EBE-Q1-qGC.text" = "No, no mucho";
+
+/* Class = "UILabel"; text = "Sí, algunas veces"; ObjectID = "FGZ-D7-64g"; */
+"FGZ-D7-64g.text" = "Sí, algunas veces";
+
+/* Class = "UILabel"; text = "Prácticamente nunca"; ObjectID = "FJe-oS-5jz"; */
+"FJe-oS-5jz.text" = "Prácticamente nunca";
+
+/* Class = "UILabel"; text = "Sí, la mayor parte del tiempo no he podido sobrellevarlas"; ObjectID = "Fuk-Jo-G6g"; */
+"Fuk-Jo-G6g.text" = "Sí, la mayor parte del tiempo no he podido sobrellevarlas";
+
+/* Class = "UILabel"; text = "Me he sentido triste y desgraciada:"; ObjectID = "G5c-Ja-YPk"; */
+"G5c-Ja-YPk.text" = "Me he sentido triste y desgraciada:";
+
+/* Class = "UILabel"; text = "Casi nada"; ObjectID = "GAJ-GW-t9Y"; */
+"GAJ-GW-t9Y.text" = "Casi nada";
+
+/* Class = "UILabel"; text = "No, la mayoría de las veces he podido sobrellevarlas bastante bien"; ObjectID = "Gyf-jF-mRI"; */
+"Gyf-jF-mRI.text" = "No, la mayoría de las veces he podido sobrellevarlas bastante bien";
+
+/* Class = "UILabel"; text = "He podido reír y ver el lado bueno de las cosas:"; ObjectID = "I5R-8m-CIS"; */
+"I5R-8m-CIS.text" = "He podido reír y ver el lado bueno de las cosas:";
+
+/* Class = "UILabel"; text = "No, nunca"; ObjectID = "IIo-n0-eQa"; */
+"IIo-n0-eQa.text" = "No, nunca";
+
+/* Class = "UIButton"; normalTitle = "Continuar 5/10"; ObjectID = "Kpa-5w-JAS"; */
+"Kpa-5w-JAS.normalTitle" = "Continuar 5/10";
+
+/* Class = "UILabel"; text = "Tanto como siempre "; ObjectID = "KxY-tQ-hEz"; */
+"KxY-tQ-hEz.text" = "Tanto como siempre ";
+
+/* Class = "UILabel"; text = "No, en lo absoluto"; ObjectID = "LTE-Rg-57Z"; */
+"LTE-Rg-57Z.text" = "No, en lo absoluto";
+
+/* Class = "UILabel"; text = "No muy a menudo"; ObjectID = "O5A-aU-1GE"; */
+"O5A-aU-1GE.text" = "No muy a menudo";
+
+/* Class = "UILabel"; text = "He mirado al futuro con placer y ánimo para hacer las cosas:"; ObjectID = "OhA-wm-8iD"; */
+"OhA-wm-8iD.text" = "He mirado al futuro con placer y ánimo para hacer las cosas:";
+
+/* Class = "UIButton"; normalTitle = "Continuar 10/10"; ObjectID = "Ort-XI-cYp"; */
+"Ort-XI-cYp.normalTitle" = "Continuar 10/10";
+
+/* Class = "UILabel"; text = "Sí, muy a menudo"; ObjectID = "PFa-l1-zXz"; */
+"PFa-l1-zXz.text" = "Sí, muy a menudo";
+
+/* Class = "UIButton"; normalTitle = "Continuar 6/10"; ObjectID = "Pru-Cw-k0B"; */
+"Pru-Cw-k0B.normalTitle" = "Continuar 6/10";
+
+/* Class = "UILabel"; text = "No tanto ahora"; ObjectID = "Q3s-dK-gSg"; */
+"Q3s-dK-gSg.text" = "No tanto ahora";
+
+/* Class = "UILabel"; text = "4."; ObjectID = "QMv-jm-5OZ"; */
+"QMv-jm-5OZ.text" = "4.";
+
+/* Class = "UILabel"; text = "No muy a menudo"; ObjectID = "RB0-lA-8q6"; */
+"RB0-lA-8q6.text" = "No muy a menudo";
+
+/* Class = "UILabel"; text = "Ocasionalmente"; ObjectID = "SJU-9c-hqD"; */
+"SJU-9c-hqD.text" = "Ocasionalmente";
+
+/* Class = "UILabel"; text = "2."; ObjectID = "SZi-UX-tFC"; */
+"SZi-UX-tFC.text" = "2.";
+
+/* Class = "UILabel"; text = "No, nunca"; ObjectID = "SaR-rs-2jk"; */
+"SaR-rs-2jk.text" = "No, nunca";
+
+/* Class = "UILabel"; text = "Sí, a veces no he podido sobrellevarlas de la manera usual"; ObjectID = "Sch-5h-yeZ"; */
+"Sch-5h-yeZ.text" = "Sí, a veces no he podido sobrellevarlas de la manera usual";
+
+/* Class = "UILabel"; text = "9."; ObjectID = "T3X-Xc-U93"; */
+"T3X-Xc-U93.text" = "9.";
+
+/* Class = "UILabel"; text = "Sí, casi siempre"; ObjectID = "WIq-Eh-FAa"; */
+"WIq-Eh-FAa.text" = "Sí, casi siempre";
+
+/* Class = "UILabel"; text = "8."; ObjectID = "WVa-bX-4Cf"; */
+"WVa-bX-4Cf.text" = "8.";
+
+/* Class = "UILabel"; text = "Sí, casi siempre"; ObjectID = "Wu7-Hb-L7L"; */
+"Wu7-Hb-L7L.text" = "Sí, casi siempre";
+
+/* Class = "UILabel"; text = "He sentido miedo o pánico sin un verdadero motivo:"; ObjectID = "YIk-UZ-ykR"; */
+"YIk-UZ-ykR.text" = "He sentido miedo o pánico sin un verdadero motivo:";
+
+/* Class = "UILabel"; text = "Algo menos de lo que solía hacerlo"; ObjectID = "Ygc-pU-a5z"; */
+"Ygc-pU-a5z.text" = "Algo menos de lo que solía hacerlo";
+
+/* Class = "UILabel"; text = "He pensado en hacerme daño:"; ObjectID = "Ze7-Md-g25"; */
+"Ze7-Md-g25.text" = "He pensado en hacerme daño:";
+
+/* Class = "UIButton"; normalTitle = "Continuar 9/10"; ObjectID = "Zvk-An-EAb"; */
+"Zvk-An-EAb.normalTitle" = "Continuar 9/10";
+
+/* Class = "UILabel"; text = "Las cosas me oprimen o agobian:"; ObjectID = "bbJ-Hh-6jL"; */
+"bbJ-Hh-6jL.text" = "Las cosas me oprimen o agobian:";
+
+/* Class = "UILabel"; text = "Sin duda, mucho menos ahora"; ObjectID = "e7K-bb-41X"; */
+"e7K-bb-41X.text" = "Sin duda, mucho menos ahora";
+
+/* Class = "UIButton"; normalTitle = "Continuar 4/10"; ObjectID = "g81-wi-kzZ"; */
+"g81-wi-kzZ.normalTitle" = "Continuar 4/10";
+
+/* Class = "UILabel"; text = "6."; ObjectID = "hYp-Lc-OFj"; */
+"hYp-Lc-OFj.text" = "6.";
+
+/* Class = "UILabel"; text = "Sí, algunas veces"; ObjectID = "hrv-nP-9jQ"; */
+"hrv-nP-9jQ.text" = "Sí, algunas veces";
+
+/* Class = "UIButton"; normalTitle = "Continuar 2/10"; ObjectID = "iL8-Bu-Fpa"; */
+"iL8-Bu-Fpa.normalTitle" = "Continuar 2/10";
+
+/* Class = "UILabel"; text = "Definitivamente menos de lo que solía hacerlo"; ObjectID = "iX3-zH-A9h"; */
+"iX3-zH-A9h.text" = "Definitivamente menos de lo que solía hacerlo";
+
+/* Class = "UILabel"; text = "7."; ObjectID = "igO-RH-rbR"; */
+"igO-RH-rbR.text" = "7.";
+
+/* Class = "UILabel"; text = "No muy a menudo"; ObjectID = "ilh-Xh-I8A"; */
+"ilh-Xh-I8A.text" = "No muy a menudo";
+
+/* Class = "UIButton"; normalTitle = "Continuar"; ObjectID = "lfc-XP-mtk"; */
+"lfc-XP-mtk.normalTitle" = "Continuar";
+
+/* Class = "UILabel"; text = "No, en lo absoluto"; ObjectID = "mBo-fb-Q4R"; */
+"mBo-fb-Q4R.text" = "No, en lo absoluto";
+
+/* Class = "UILabel"; text = "Lo estoy pensando en este momento"; ObjectID = "ngB-7g-9sD"; */
+"ngB-7g-9sD.text" = "Lo estoy pensando en este momento";
+
+/* Class = "UILabel"; text = "10."; ObjectID = "rvU-uW-eJF"; */
+"rvU-uW-eJF.text" = "10.";
+
+/* Class = "UILabel"; text = "Sí, algunas veces"; ObjectID = "som-Ge-XJ4"; */
+"som-Ge-XJ4.text" = "Sí, algunas veces";
+
+/* Class = "UILabel"; text = "Sí, casi siempre"; ObjectID = "tel-6l-SkA"; */
+"tel-6l-SkA.text" = "Sí, casi siempre";
+
+/* Class = "UILabel"; text = "3."; ObjectID = "u6j-wE-0za"; */
+"u6j-wE-0za.text" = "3.";
+
+/* Class = "UILabel"; text = "No, he podido sobrellevarlas tan bien como lo he hecho siempre"; ObjectID = "uZl-e2-Nzx"; */
+"uZl-e2-Nzx.text" = "No, he podido sobrellevarlas tan bien como lo he hecho siempre";
+
+/* Class = "UIButton"; normalTitle = "Continuar 3/10"; ObjectID = "vEC-NE-YyT"; */
+"vEC-NE-YyT.normalTitle" = "Continuar 3/10";
+
+/* Class = "UILabel"; text = "Sí, bastante a menudo"; ObjectID = "vGA-Se-3Df"; */
+"vGA-Se-3Df.text" = "Sí, bastante a menudo";
+
+/* Class = "UILabel"; text = "Sí, algunas veces"; ObjectID = "vSW-Ln-X1L"; */
+"vSW-Ln-X1L.text" = "Sí, algunas veces";
+
+/* Class = "UILabel"; text = "No, muy a menudo"; ObjectID = "vkt-4A-zNb"; */
+"vkt-4A-zNb.text" = "No, muy a menudo";
+
+/* Class = "UILabel"; text = "Sí, casi siempre"; ObjectID = "wLU-Jz-JnA"; */
+"wLU-Jz-JnA.text" = "Sí, casi siempre";
+
+/* Class = "UILabel"; text = "Sí, algunas veces"; ObjectID = "yrc-gg-SVJ"; */
+"yrc-gg-SVJ.text" = "Sí, algunas veces";
+
+/* Class = "UILabel"; text = "5."; ObjectID = "yv4-VG-0RS"; */
+"yv4-VG-0RS.text" = "5.";
+
+/* Class = "UILabel"; text = "Me he culpado sin necesidad cuando las cosas marchan mal:"; ObjectID = "zDz-Vs-Fsh"; */
+"zDz-Vs-Fsh.text" = "Me he culpado sin necesidad cuando las cosas marchan mal:";
+
+/* Class = "UILabel"; text = "No, nunca"; ObjectID = "zRT-yi-fer"; */
+"zRT-yi-fer.text" = "No, nunca";

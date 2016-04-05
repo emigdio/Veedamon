@@ -1,0 +1,120 @@
+/* 
+  Localizable.strings
+  VeedaMom
+
+  Created by EMIGDIO CAMACHO CALDERON on 5/3/16.
+  Copyright © 2016 EMIGDIO CAMACHO CALDERON. All rights reserved.
+*/
+"LOG_IN_BUTTON" = "Iniciar sesión";
+
+"SIGN_UP_BUTTON" = "Registro";
+
+"FORGET_PASSWORD" = "¿olvidaste tu contraseña?";
+
+"USER_TEXTFIELD" = "Usuario o email";
+
+"PASSWORD_TEXTFIELD" = "Contraseña";
+
+"ALERT_SELECT_OPTION" = "Debe seleccionar una opción";
+
+"TITLE_QUESTION1" = "He podido reír y ver el lado bueno de las cosas:";
+
+"OPTION1_QUESTION1" = "Tanto como siempre he podido hacerlo";
+
+"OPTION2_QUESTION1" = "No tanto ahora";
+
+"OPTION3_QUESTION1" = "Sin duda, mucho menos ahora";
+
+"OPTION4_QUESTION1" = "No, en absoluto";
+
+"TITLE_QUESTION2" = "He mirado al futuro con placer y ánimo para hacer cosas:";
+
+"OPTION1_QUESTION2" = "Tanto como siempre";
+
+"OPTION2_QUESTION2" = "Algo menos de lo que solía hacerlo";
+
+"OPTION3_QUESTION2" = "Definitivamente menos de lo que solía hacerlo";
+
+"OPTION4_QUESTION2" = "Prácticamente nunca";
+
+"TITLE_QUESTION3" = "Me he culpado sin necesidad cuando las cosas marchan mal:";
+
+"OPTION1_QUESTION3" = "Sí, casi siempre";
+
+"OPTION2_QUESTION3" = "Sí, algunas veces";
+
+"OPTION3_QUESTION3" = "No muy a menudo";
+
+"OPTION4_QUESTION3" = "No, nunca";
+
+"TITLE_QUESTION4" = "He estado ansiosa y preocupada sin motivo:";
+
+"OPTION1_QUESTION4" = "No, en lo absoluto";
+
+"OPTION2_QUESTION4" = "Casi nada";
+
+"OPTION3_QUESTION4" = "Sí, algunas veces";
+
+"OPTION4_QUESTION4" = "Sí, muy a menudo";
+
+"TITLE_QUESTION5" = "He sentido miedo o pánico sin un verdadero motivo:";
+
+"OPTION1_QUESTION5" = "Sí, bastante";
+
+"OPTION2_QUESTION5" = "Sí, algunas veces";
+
+"OPTION3_QUESTION5" = "No, no mucho";
+
+"OPTION4_QUESTION5" = "No, en lo absoluto";
+
+"TITLE_QUESTION6" = "Las cosas me oprimen o agobian:";
+
+"OPTION1_QUESTION6" = "Sí, la mayor parte del tiempo no he podido sobrellevarlas";
+
+"OPTION2_QUESTION6" = "Sí, a veces no he podido sobrellevarlas de la manera usual";
+
+"OPTION3_QUESTION6" = "No, la mayoría de las veces he podido sobrellevarlas bastante bien";
+
+"OPTION4_QUESTION6" = "No, he podido sobrellevarlas tan bien como lo hecho siempre";
+
+"TITLE_QUESTION7" = "Me he sentido tan infeliz, que he tenido dificultad para dormir:";
+
+"OPTION1_QUESTION7" = "Sí, casi siempre";
+
+"OPTION2_QUESTION7" = "Sí, algunas veces";
+
+"OPTION3_QUESTION7" = "No muy a menudo";
+
+"OPTION4_QUESTION7" = "No, en lo absoluto";
+
+"TITLE_QUESTION8" = "Me he sentido triste y desgraciada:";
+
+"OPTION1_QUESTION8" = "Sí, casi siempre";
+
+"OPTION2_QUESTION8" = "Sí, algunas veces";
+
+"OPTION3_QUESTION8" = "No muy a menudo";
+
+"OPTION4_QUESTION8" = "No, en lo absoluto";
+
+"TITLE_QUESTION9" = "Me he sentido tan infeliz que he estado llorando:";
+
+"OPTION1_QUESTION9" = "Sí, casi siempre";
+
+"OPTION2_QUESTION9" = "Sí, algunas veces";
+
+"OPTION3_QUESTION9" = "Ocasionalmente";
+
+"OPTION4_QUESTION9" = "No, nunca";
+
+"TITLE_QUESTION10" = "He pensado en hacerme daño:";
+
+"OPTION1_QUESTION10" = "Lo estoy pensando en este momento";
+
+"OPTION2_QUESTION10" = "Sí, bastante a menudo";
+
+"OPTION3_QUESTION10" = "Sí, algunas veces";
+
+"OPTION4_QUESTION10" = "No muy a menudo";
+
+"OPTION5_QUESTION10" = "No, nunca";
